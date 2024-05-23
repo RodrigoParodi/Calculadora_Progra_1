@@ -46,9 +46,8 @@ def menuCalcular(x:int,y:int):
 
     return opcion_usuario
 
-def seleccionar_operacion(x,y):
+def seleccionar_operacion(x,y,resultado):
     from os import system
-    resultado = 0
 
     while True:
         match menuCalcular(x,y):
